@@ -11,5 +11,8 @@
 
 	<modules>
 		<module>WordCount</module>
+		<module>KafkaConnector</module>
+		<module>ElasticSearchConnector</module>
+		<module>RabbitMQConnector</module>
 	</modules>
 </project>
