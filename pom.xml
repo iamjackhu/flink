@@ -14,5 +14,22 @@
 		<module>KafkaConnector</module>
 		<module>ElasticSearchConnector</module>
 		<module>RabbitMQConnector</module>
+		<module>CassandraConnector</module>
+		<module>TwitterConnector</module>
 	</modules>
+
+	<dependencies>
+		<dependency>
+			<groupId>org.apache.flink</groupId>
+			<artifactId>flink-java</artifactId>
+			<version>1.4.2</version>
+			<scope>provided</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.flink</groupId>
+			<artifactId>flink-streaming-java_2.11</artifactId>
+			<version>1.4.2</version>
+			<scope>provided</scope>
+		</dependency>
+	</dependencies>
 </project>
