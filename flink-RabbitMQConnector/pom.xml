@@ -7,14 +7,18 @@
 		<artifactId>parent</artifactId>
 		<version>0.0.1</version>
 	</parent>
-	<artifactId>TwitterConnector</artifactId>
+	<artifactId>flink-RabbitMQConnector</artifactId>
 
 	<dependencies>
 		
 		<dependency>
 			<groupId>org.apache.flink</groupId>
-			<artifactId>flink-connector-twitter_2.11</artifactId>
-			<version>1.1.4</version>
+			<artifactId>flink-connector-rabbitmq_2.11</artifactId>
+			<version>
+				1.1.4
+			</version>
 		</dependency>
+
 	</dependencies>
+
 </project>

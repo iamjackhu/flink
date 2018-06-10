@@ -10,12 +10,12 @@
 	<name>Flink :: Parent</name>
 
 	<modules>
-		<module>WordCount</module>
-		<module>KafkaConnector</module>
-		<module>ElasticSearchConnector</module>
-		<module>RabbitMQConnector</module>
-		<module>CassandraConnector</module>
-		<module>TwitterConnector</module>
+		<module>flink-WordCount</module>
+		<module>flink-TwitterConnector</module>
+		<module>flink-CassandraConnector</module>
+		<module>flink-RabbitMQConnector</module>
+		<module>flink-ElasticSearchConnector</module>
+		<module>flink-KafkaConnector</module>
 	</modules>
 
 	<dependencies>
